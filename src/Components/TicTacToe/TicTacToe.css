@@ -1,0 +1,114 @@
+.container {
+    text-align: center;
+    background-color: darkseagreen;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    margin-top: 20px;
+    color: #333;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title span {
+    color: #61dafb;
+    padding-left: 15px;
+  }
+  
+  .reset {
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #61dafb;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10px; /* Tambahkan jarak ke kanan */
+    transition: background-color 0.3s;
+  }
+  
+  .reset:hover {
+    background-color: #4ca9e0;
+  }
+  
+  .boxes {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: #f9f9f9;
+    border: 4px solid #333;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .boxes:hover {
+    background-color: #61dafb;
+    border-color: #4ca9e0;
+  }
+  
+  .board {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .start-game {
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #61dafb;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px; /* Tambahkan jarak ke kiri */
+    transition: background-color 0.3s;
+  }
+  
+  .start-game:hover {
+    background-color: #4ca9e0;
+  }
+  .status {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .notification-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .notification {
+    background: #1495ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  

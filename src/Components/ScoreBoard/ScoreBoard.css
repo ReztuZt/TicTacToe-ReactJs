@@ -1,0 +1,21 @@
+/* ScoreBoard.css */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .score span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
